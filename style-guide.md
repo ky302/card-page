@@ -30,3 +30,18 @@ The designs were created to the following widths:
 
 - Family: [Manrope](https://fonts.google.com/specimen/Manrope)
 - Weights: 800
+
+<!-- <picture aria-label="img to be shown according to sizes">
+            <source
+              media="( min-width:900px )"
+              srcset="./src/assets/images/pattern-divider-desktop.svg"
+            />
+            <source
+              media="( max-width:900px )"
+              srcset="./src/assets/images/pattern-divider-mobile.svg"
+            />
+            <img
+              src="./src//assets//images/pattern-divider-desktop.svg"
+              alt="divider"
+            />
+          </picture> -->

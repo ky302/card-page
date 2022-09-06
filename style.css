@@ -81,28 +81,30 @@ body {
   background: var(--clr-dark-grayish-blue);
   color: var(--clr-white);
   padding: 1rem;
-  max-width: 300px;
+  max-width: 500px;
   border-radius: 10px;
   box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.2);
   margin: 4px;
+  font-size: 24px;
 }
 
 .card h5 {
   color: var(--clr-neon-green);
   text-transform: uppercase;
   letter-spacing: 3px;
+  font-size: 20px;
 }
 
 .line {
   display: flex;
-  font-size: 28px;
   justify-content: center;
   align-items: center;
+  margin-top: 10px;
   margin-bottom: 20px;
 }
 
 .line hr {
-  width: 80px;
+  width: 10px;
   height: 0.5px;
   border-radius: 10px;
   background-color: #fff;
@@ -120,7 +122,7 @@ body {
 }
 
 .line-v-2 {
-  width: 110px;
+  width: 210px;
   height: 1px;
   background-color: var(--clr-white);
   margin: 10px;
@@ -138,21 +140,22 @@ body {
   justify-content: center;
   align-items: center;
 }
-.btn :hover {
-  box-shadow: 0px 0px 40px var(--clr-neon-green);
+.btn:hover {
+  background-color: var(--clr-neon-green);
+  box-shadow: 0 0 10px hsl(150, 100%, 65%), 0 0 40px hsl(150, 100%, 65%),
+    0 0 80px hsl(150, 100%, 65%);
 }
 .btn img {
   width: 20px;
 }
 
-.btn img :hover {
-  box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.7);
-  filter: brightness(120%);
-}
-
-@media screen and (max-width: 375px) {
+@media (max-width: 550px) {
   .container-card {
     background: var(--clr-dark-grayish-blue);
     max-width: 240px;
+    font-size: 18px;
+  }
+  .card h5 {
+    font-size: 15px;
   }
 }
